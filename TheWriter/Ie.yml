@@ -1,0 +1,11 @@
+---
+extends: substitution
+message: Use '%s' instead of '%s'
+level: error
+link: 'http://www.thewriter.com/what-we-think/style-guide/etc/'
+ignorecase: true
+nonword: true
+action:
+  name: replace
+swap:
+  '\b(?:ie\b|i\.e\.)': that is
