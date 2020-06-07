@@ -1,0 +1,15 @@
+---
+extends: substitution
+message: Use '%s' instead of '%s'
+level: error
+link: 'http://www.thewriter.com/what-we-think/style-guide/etc/'
+ignorecase: true
+nonword: true
+action:
+  name: replace
+  params:
+    - for example
+    - such as
+    - like
+swap:
+  '\b(?:eg\b|e\.g\.)': for example
