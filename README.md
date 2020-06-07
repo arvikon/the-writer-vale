@@ -13,7 +13,7 @@ Copy **TheWriter** folder to your `StylesPath`, and include it in the Vale confi
 # Example Vale config file (`.vale.ini` or `_vale.ini`)
 
 # Path to Vale styles relative to this config file
-StylesPath = .
+StylesPath = path/to/styles
 
 # Minimum alert level to show, and break the CI build
 MinAlertLevel = suggestion
