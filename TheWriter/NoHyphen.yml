@@ -1,0 +1,14 @@
+---
+extends: existence
+message: Don't hyphenate '%s'
+level: error
+link: 'http://www.thewriter.com/what-we-think/style-guide/words-we-definitely-dont-hyphenate-a-work-in-progress/'
+ignorecase: true
+tokens:
+  - co-operate
+  - co-ordinate
+  - e-mail
+  - on-line
+  - re-write
+  - sub-total
+  - web-site
