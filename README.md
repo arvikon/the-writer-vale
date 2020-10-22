@@ -2,10 +2,10 @@
 
 # The Writer for Vale
 
-An attempt to implement [the Writer style guide](http://www.thewriter.com/what-we-think/style-guide/) as a set of rules for [Vale](https://errata-ai.gitbook.io/vale/).
+An attempt to implement [the Writer style guide](http://www.thewriter.com/what-we-think/style-guide/) as a set of rules for [Vale](https://docs.errata.ai/vale/about).
 
 > A work in progress.
-> Tested and verified with Vale 2.2.0.
+> Tested and verified with Vale 2.5.0.
 
 Copy **TheWriter** folder to your `StylesPath`, and include it in the Vale config file.
 
