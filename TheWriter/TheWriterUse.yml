@@ -1,0 +1,9 @@
+---
+extends: sequence
+message: If you are using '%[1]s %[2]s' as an adjective, use lowercase 'the'
+level: suggestion
+link: http://www.thewriter.com/what-we-think/style-guide/what-to-call-the-writer/
+tokens:
+  - pattern: The
+  - pattern: Writer
+  - tag: NN

@@ -1,0 +1,11 @@
+---
+extends: existence
+message: Never say '%s'. Just 'The Writer'
+level: error
+link: http://www.thewriter.com/what-we-think/style-guide/what-to-call-the-writer/
+action:
+  name: replace
+  params:
+    - The Writer
+tokens:
+  - '(?:[Tt]he )?Writer Limited'
