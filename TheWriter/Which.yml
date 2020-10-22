@@ -1,0 +1,8 @@
+---
+extends: existence
+message: Put commas before and after the 'which' clause
+link: http://www.thewriter.com/what-we-think/style-guide/that-or-which/
+level: warning
+ignorecase: true
+raw:
+  - '(?:\w+ which)'
