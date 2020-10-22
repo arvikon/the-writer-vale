@@ -1,8 +1,8 @@
 ---
 extends: substitution
 message: Use '%s' instead of '%s'
+link: http://www.thewriter.com/what-we-think/style-guide/okay/
 level: error
-link: 'http://www.thewriter.com/what-we-think/style-guide/okay/'
 ignorecase: true
 nonword: true
 action:

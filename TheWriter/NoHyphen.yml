@@ -1,8 +1,8 @@
 ---
 extends: existence
 message: Don't hyphenate '%s'
+link: http://www.thewriter.com/what-we-think/style-guide/words-we-definitely-dont-hyphenate-a-work-in-progress/
 level: error
-link: 'http://www.thewriter.com/what-we-think/style-guide/words-we-definitely-dont-hyphenate-a-work-in-progress/'
 ignorecase: true
 tokens:
   - co-operate

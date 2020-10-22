@@ -3,8 +3,8 @@ extends: existence
 message: >
   Check if you are using figures in '%s',
   and not spelling the number out
-level: suggestion
 link: http://www.thewriter.com/what-we-think/style-guide/weights-and-measures/
+level: suggestion
 nonword: true
 raw:
   - '\b[a-zA-Z]+\b( | )\b(?:'

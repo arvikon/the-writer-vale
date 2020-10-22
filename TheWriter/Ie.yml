@@ -1,11 +1,15 @@
 ---
 extends: substitution
 message: Use '%s' instead of '%s'
+link: http://www.thewriter.com/what-we-think/style-guide/etc/
 level: error
-link: 'http://www.thewriter.com/what-we-think/style-guide/etc/'
 ignorecase: true
 nonword: true
 action:
   name: replace
+  params:
+    - that is
+    - such as
+    - like
 swap:
-  '\b(?:ie\b|i\.e\.)': that is
+  '\b(?:ie\b|i\.e\.)': that is', 'such as', or 'like
