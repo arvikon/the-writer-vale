@@ -1,6 +1,6 @@
 ---
 extends: sequence
-message: "Put commas before and after 'which' clause"
+message: "Put commas before and after '%[2]s' clause"
 link: http://www.thewriter.com/what-we-think/style-guide/that-or-which/
 level: warning
 ignorecase: true

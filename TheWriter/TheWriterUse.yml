@@ -1,8 +1,8 @@
 ---
 extends: sequence
 message: >
-  "If you are using '%[1]s %[2]s' as an adjective, use lowercase 'the'.
-  If you are referring to '%[1]s %[2]s' on its own, then use uppercase '%[1]s'"
+  If you are using '%[1]s %[2]s' as an adjective, use lowercase 'the'.
+  If you are referring to '%[1]s %[2]s' on its own, then use uppercase '%[1]s'
 link: http://www.thewriter.com/what-we-think/style-guide/what-to-call-the-writer/
 level: suggestion
 action:

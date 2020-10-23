@@ -1,8 +1,8 @@
 ---
 extends: existence
 message: >
-  "Check if you are using figures in '%s',
-  and not spelling the number out"
+  Check if you are using figures in '%s',
+  and not spelling the number out
 link: http://www.thewriter.com/what-we-think/style-guide/weights-and-measures/
 level: suggestion
 nonword: true
