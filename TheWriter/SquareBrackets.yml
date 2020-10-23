@@ -1,0 +1,10 @@
+---
+extends: conditional
+message: "Use square brackets only inside parentheses or quotation"
+link: http://www.thewriter.com/what-we-think/style-guide/brackets-parentheses/
+level: suggestion
+scope: sentence
+ignorecase: true
+nonword: true
+first: (\[.+\])
+second: (?:['"‘(].*?(\[.+\]).*?['"’)])
