@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: Never say '%s'. Just 'The Writer'
+message: "Never say '%s'. Just 'The Writer'"
 link: http://www.thewriter.com/what-we-think/style-guide/what-to-call-the-writer/
 level: error
 action:

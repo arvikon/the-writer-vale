@@ -1,6 +1,6 @@
 ---
 extends: existence
-message: Do not put space between the number and the measure in '%s'
+message: "Do not put space between the number and the measure in '%s'"
 link: http://www.thewriter.com/what-we-think/style-guide/weights-and-measures/
 level: warning
 nonword: true
