@@ -1,4 +1,4 @@
-![wip](https://img.shields.io/badge/-WIP-yellow) ![vale](https://img.shields.io/badge/Vale-&ge;v2.2.0-blue) ![license](https://img.shields.io/badge/License-MIT-green)
+![wip](https://img.shields.io/badge/-WIP-yellow) ![vale](https://img.shields.io/badge/Vale-&ge;v2.5.0-blue) ![license](https://img.shields.io/badge/License-MIT-green)
 
 # The Writer for Vale
 
