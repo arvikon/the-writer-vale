@@ -1,0 +1,10 @@
+---
+extends: existence
+message: "Check use of parenthesis with end punctuation"
+link: http://www.thewriter.com/what-we-think/style-guide/brackets-parentheses/
+level: suggestion
+scope: sentence
+nonword: true
+tokens:
+  - '(?:\([A-Z][^()]+[^.!?]\)[.!?])'
+  - '(?:\([a-z][^()]+[.!?]\))'
