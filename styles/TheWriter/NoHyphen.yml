@@ -1,0 +1,13 @@
+---
+extends: existence
+message: Don't hyphenate '%s'.
+link: https://www.thewriter.com/tools/style-guide/punctuation/hyphens
+level: error
+ignorecase: true
+tokens:
+  - 'co-operat(?:e[ds]?|ing|ors?)'
+  - 'co-ordinat(?:e[ds]?|ing|ors?)'
+  - 'e-mail(?:s|ed|ing)?'
+  - on-line
+  - 're-wr(?:it(?:er?s?|ing|ten)|ote)'
+  - 'sub-totals?'

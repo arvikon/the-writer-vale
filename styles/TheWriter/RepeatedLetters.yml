@@ -1,0 +1,11 @@
+---
+extends: existence
+message: >-
+  Use a hyphen with prefixes or suffixes when you've repeated
+  letters in a word, but you pronounce them separately.
+link: https://www.thewriter.com/tools/style-guide/punctuation/hyphens
+level: error
+ignorecase: true
+tokens:
+  - 'anti{2}[a-z]+'
+  - '[a-z]+l{2}ike'

@@ -1,0 +1,10 @@
+---
+extends: existence
+message: You might want to use symbol '%%' instead of '%s' in the table.
+link: https://www.thewriter.com/tools/style-guide/numbers/percent
+level: warning
+scope:
+  - table.header
+  - table.cell
+tokens:
+  - 'per ?cents?'

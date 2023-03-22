@@ -1,0 +1,10 @@
+---
+extends: existence
+message: Put spaces around an en dash ('–') unless it's used in a range.
+link: https://www.thewriter.com/tools/style-guide/punctuation/dashes
+level: suggestion
+nonword: true
+tokens:
+  - '[^\s]–[^\s]'
+exceptions:
+  - '\d+–\d+'

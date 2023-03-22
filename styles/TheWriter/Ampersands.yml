@@ -1,0 +1,8 @@
+---
+extends: existence
+message: Don't use ampersands unless they're part of a name.
+link: https://www.thewriter.com/tools/style-guide/punctuation/ampersands
+level: warning
+nonword: true
+tokens:
+  - '\w+\s&\s\w+'

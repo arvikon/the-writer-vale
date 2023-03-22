@@ -1,0 +1,13 @@
+---
+extends: existence
+message: Spell 'am' and 'pm' in lower case.
+link: https://www.thewriter.com/tools/style-guide/numbers/dates-and-times
+level: error
+raw:
+  - '\d{1,2}'
+  - '(?:'
+  - '[:.]'
+  - '\d{2}'
+  - ')?'
+  - '[  ]?'
+  - '[AP]\.?M\.?'

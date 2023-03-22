@@ -1,0 +1,12 @@
+---
+extends: existence
+message: Consider using the Oxford comma if it helps you be clearer.
+link: https://www.thewriter.com/tools/style-guide/punctuation/commas
+level: suggestion
+ignorecase: true
+nonword: true
+raw:
+  - '(?:[\w-]+,)+ '
+  - '[\w-]+ '
+  - '(?:and|or) '
+  - '[\w-]+'

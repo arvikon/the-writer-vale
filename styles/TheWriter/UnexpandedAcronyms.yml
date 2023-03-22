@@ -1,0 +1,10 @@
+---
+extends: conditional
+message: >-
+    Put '%s' in full the first time you use it,
+    if it's unfamiliar to the audience.
+link: https://www.thewriter.com/tools/style-guide/grammar/abbreviations-acronyms-and-initialisms
+level: warning
+scope: text
+first: '\b((?:[A-Z]\.*){3,5})\b'
+second: '(?:\b[A-Z][a-z]+ )+\(((?:[A-Z]\.*){3,5})\)'

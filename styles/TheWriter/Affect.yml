@@ -1,0 +1,10 @@
+---
+# Maybe move to `CheckUse`
+extends: sequence
+message: Most of the time, don't use 'affect' as a noun.
+link: https://www.thewriter.com/tools/style-guide/spelling/words-were-never-quite-sure-how-to-spell
+level: warning
+ignorecase: true
+tokens:
+  - pattern: affect
+    tag: NN

@@ -1,0 +1,15 @@
+---
+extends: existence
+message: "'%s' requires a hyphen after the prefix."
+link: https://www.thewriter.com/tools/style-guide/punctuation/hyphens
+level: error
+raw:
+  - '(?:'
+  - '[Aa]nti|'
+  - '[Nn]on|'
+  - '[Pp]an|'
+  - '[Pp]re|'
+  - '[Uu]n)'
+  - ' ?'
+  - '[A-Z]'
+  - '\w+'

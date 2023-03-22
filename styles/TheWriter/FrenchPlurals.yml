@@ -1,0 +1,9 @@
+---
+extends: substitution
+message: Spell '%s' instead of '%s'.
+link: https://www.thewriter.com/tools/style-guide/grammar/plurals
+level: error
+ignorecase: true
+swap:
+  'attorneys? generals': attorneys general
+  'courts? martials': courts martial

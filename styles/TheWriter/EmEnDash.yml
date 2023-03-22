@@ -1,0 +1,8 @@
+---
+extends: substitution
+message: Use an en dash ('%s') instead of an em dash ('%s').
+link: https://www.thewriter.com/tools/style-guide/punctuation/dashes
+level: warning
+nonword: true
+swap:
+  '—': '–'

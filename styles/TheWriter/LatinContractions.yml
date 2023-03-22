@@ -1,0 +1,9 @@
+---
+extends: substitution
+message: Use '%s' instead of '%s'.
+link: https://www.thewriter.com/tools/style-guide/grammar/etc
+level: error
+swap:
+  '[eE]tc\.?': and so on
+  '[eE](?:g\b|\.g\.)': for example
+  '[iI](?:e\b|\.e\.)': that is

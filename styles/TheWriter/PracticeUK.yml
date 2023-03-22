@@ -1,0 +1,12 @@
+---
+# Maybe move to `CheckUse`
+extends: sequence
+message: >-
+  If you're writing for the British English-speaking audience,
+  use 'practice' as a noun, but 'practise' as a verb.
+link: https://www.thewriter.com/tools/style-guide/spelling/words-were-never-quite-sure-how-to-spell
+level: suggestion
+ignorecase: true
+tokens:
+  - pattern: practice
+    tag: VB

@@ -1,0 +1,7 @@
+---
+extends: existence
+message: Consider putting commas before and after the '%s'-clause.
+link: https://www.thewriter.com/tools/style-guide/grammar/that-who-or-which
+level: suggestion
+tokens:
+  - '(?<!, )which'

@@ -1,0 +1,26 @@
+---
+extends: existence
+message: Use 'to' in the ranges of days (for example, Monday to Friday).
+link: https://www.thewriter.com/tools/style-guide/punctuation/dashes
+level: warning
+nonword: true
+raw:
+  - '\b(?:'
+  - 'Sun(?:day)?|'
+  - 'Mon(?:day)?|'
+  - 'Tue(?:sday)?|'
+  - 'Wed(?:nesday)?|'
+  - 'Thu(?:rsday)?|'
+  - 'Fri(?:day)?|'
+  - 'Sat(?:urday)?'
+  - ')\b'
+  - '[  ]?[-–][  ]?'
+  - '\b(?:'
+  - 'Sun(?:day)?|'
+  - 'Mon(?:day)?|'
+  - 'Tue(?:sday)?|'
+  - 'Wed(?:nesday)?|'
+  - 'Thu(?:rsday)?|'
+  - 'Fri(?:day)?|'
+  - 'Sat(?:urday)?'
+  - ')\b'

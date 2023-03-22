@@ -1,0 +1,10 @@
+---
+extends: sequence
+message: >-
+  Use American 'analyzes' instead of British 'analyses' when it's a verb.
+link: https://www.thewriter.com/tools/style-guide/our-two-cents/british-vs-american-english
+level: error
+ignorecase: true
+tokens:
+  - pattern: analyses
+    tag: VBZ

@@ -1,0 +1,8 @@
+---
+extends: existence
+message: >-
+  Use an apostrophe instead of 's to form possessive of a word ending in 's'.
+link: https://www.thewriter.com/tools/style-guide/punctuation/apostrophes
+level: warning
+tokens:
+  - '[a-zA-Z]+s\x27s'

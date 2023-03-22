@@ -1,0 +1,13 @@
+---
+# Maybe move to `CheckUse`
+extends: sequence
+message: Spell '%[1]s%[2]s' when it's an adjective.
+link: https://www.thewriter.com/tools/style-guide/spelling/words-were-never-quite-sure-how-to-spell
+level: warning
+ignorecase: true
+tokens:
+  - pattern: every
+    tag: DT
+  - pattern: day
+    tag: NN
+  - tag: NN|JJ

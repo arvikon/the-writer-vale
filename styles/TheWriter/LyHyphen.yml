@@ -1,0 +1,9 @@
+---
+extends: existence
+message: "'%s' doesn't need a hyphen."
+link: https://www.thewriter.com/tools/style-guide/punctuation/hyphens
+level: error
+ignorecase: false
+nonword: true
+tokens:
+  - '[^\s-]+ly-'

@@ -1,0 +1,7 @@
+---
+extends: capitalization
+message: Headings should generally be sentence case.
+link: https://www.thewriter.com/tools/style-guide/grammar/caps-vs-lower-case
+level: warning
+scope: heading
+match: $sentence

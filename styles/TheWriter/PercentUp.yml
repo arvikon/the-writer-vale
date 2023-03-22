@@ -1,0 +1,9 @@
+---
+extends: existence
+message: Use symbol '%%' with 10 and up.
+link: https://www.thewriter.com/tools/style-guide/numbers/percent
+level: warning
+nonword: true
+raw:
+  - '[1-9]\d[\d.]* '
+  - '\bper ?cents?\b'

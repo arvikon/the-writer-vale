@@ -1,0 +1,8 @@
+---
+extends: existence
+message: Don't put periods in acronyms or initialisms such as '%s'.
+link: https://www.thewriter.com/tools/style-guide/grammar/abbreviations-acronyms-and-initialisms
+level: warning
+nonword: true
+tokens:
+  - '\b(?:[A-Z]\.){3,5}'

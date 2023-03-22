@@ -1,0 +1,23 @@
+---
+extends: substitution
+message: Spell '%s' instead of '%s'.
+link: https://www.thewriter.com/tools/style-guide/spelling/words-were-never-quite-sure-how-to-spell
+# https://www.thewriter.com/tools/style-guide/grammar/web-and-email-addresses
+# https://www.thewriter.com/tools/style-guide/punctuation/hyphens
+level: error
+ignorecase: true
+swap:
+  acknowledgment: acknowledgement
+  acknowledgments: acknowledgements
+  anymore: any more
+  coworker: co-worker
+  coworkers: co-workers
+  focussed: focused
+  focusses: focuses
+  focussing: focusing
+  'power-point': PowerPoint
+  straightaway: straight away
+  'web-?page': web page
+  'web-?pages': web pages
+  'web[ -]site': website
+  'web[ -]sites': websites

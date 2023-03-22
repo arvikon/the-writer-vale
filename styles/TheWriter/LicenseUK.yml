@@ -1,0 +1,12 @@
+---
+# Maybe move to `CheckUse`
+extends: sequence
+message: >-
+  If you're writing for the British English-speaking audience,
+  use 'license' as a verb, but 'licence' as a noun.
+link: https://www.thewriter.com/tools/style-guide/spelling/words-were-never-quite-sure-how-to-spell
+level: error
+ignorecase: true
+tokens:
+  - pattern: license
+    tag: NN

@@ -1,0 +1,10 @@
+---
+extends: existence
+message: >-
+  Avoid using exclamation marks.
+  If you need to use one, make sure it's only one.
+link: https://www.thewriter.com/tools/style-guide/punctuation/exclamation-marks
+level: warning
+nonword: true
+tokens:
+  - '\w+\?*!+(?=(?:\?|\s|$))'

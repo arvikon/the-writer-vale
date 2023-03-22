@@ -1,0 +1,9 @@
+---
+extends: substitution
+message: Spell '%s' instead of '%s'.
+link: https://www.thewriter.com/tools/style-guide/spelling/okay
+level: suggestion
+ignorecase: true
+nonword: true
+swap:
+  '\bo(?:k\b|\.k\.)': okay

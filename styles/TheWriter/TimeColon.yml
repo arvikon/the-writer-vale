@@ -1,0 +1,12 @@
+---
+extends: existence
+message: Use a period instead of a colon to separate hours and minutes in '%s'.
+link: https://www.thewriter.com/tools/style-guide/numbers/dates-and-times
+level: error
+ignorecase: true
+raw:
+  - '\d{1,2}'
+  - '\:'
+  - '\d{2}'
+  - '[  ]?'
+  - '[ap]\.?m\.?'

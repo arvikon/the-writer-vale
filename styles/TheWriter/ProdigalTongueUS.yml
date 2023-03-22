@@ -1,0 +1,13 @@
+---
+# Make sure to use either this rule or 'ProdigalTongueUK' at a time.
+# Don't use both at once since they'll contradict.
+extends: substitution
+message: Use American '%s' instead of British '%s'.
+link: https://www.thewriter.com/tools/style-guide/our-two-cents/british-vs-american-english
+# https://www.thewriter.com/tools/style-guide/spelling/words-were-never-quite-sure-how-to-spell
+# https://www.thewriter.com/tools/style-guide/numbers/percent
+level: error
+ignorecase: true
+swap:
+  per cent: percent
+  per cents: percents

@@ -1,0 +1,11 @@
+---
+extends: substitution
+message: Use '%s' instead of '%s'.
+link: https://www.thewriter.com/tools/style-guide/our-two-cents/old-fashioned-words
+level: error
+ignorecase: true
+swap:
+  therefore: so
+  thus: so
+  upon: "on"
+  whilst: while

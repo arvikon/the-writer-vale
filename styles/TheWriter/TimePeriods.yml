@@ -1,0 +1,14 @@
+---
+extends: existence
+message: No periods in 'am' and 'pm'.
+link: https://www.thewriter.com/tools/style-guide/numbers/dates-and-times
+level: error
+ignorecase: true
+raw:
+  - '\d{1,2}'
+  - '(?:'
+  - '[:.]'
+  - '\d{2}'
+  - ')?'
+  - '[  ]?'
+  - '[ap]\.m\.'

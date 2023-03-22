@@ -1,0 +1,36 @@
+---
+extends: existence
+message: Use 'to' in the ranges of months (for example, January to December).
+link: https://www.thewriter.com/tools/style-guide/punctuation/dashes
+level: warning
+nonword: true
+raw:
+  - '\b(?:'
+  - 'Jan(?:uary)?|'
+  - 'Feb(?:ruary)?|'
+  - 'Mar(?:ch)?|'
+  - 'Apr(?:il)?|'
+  - 'May|'
+  - 'June?|'
+  - 'July?|'
+  - 'Aug(?:ust)?|'
+  - 'Sep(?:tember)?|'
+  - 'Oct(?:ober)?|'
+  - 'Nov(?:ember)?|'
+  - 'Dec(?:ember)?'
+  - ')\b'
+  - '[  ]?[-–][  ]?'
+  - '\b(?:'
+  - 'Jan(?:uary)?|'
+  - 'Feb(?:ruary)?|'
+  - 'Mar(?:ch)?|'
+  - 'Apr(?:il)?|'
+  - 'May|'
+  - 'June?|'
+  - 'July?|'
+  - 'Aug(?:ust)?|'
+  - 'Sep(?:tember)?|'
+  - 'Oct(?:ober)?|'
+  - 'Nov(?:ember)?|'
+  - 'Dec(?:ember)?'
+  - ')\b'

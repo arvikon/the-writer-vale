@@ -1,0 +1,9 @@
+---
+extends: existence
+message: >-
+  Use American 'gotten' instead of British 'got' when it's past participle.
+link: https://www.thewriter.com/tools/style-guide/our-two-cents/british-vs-american-english
+level: warning
+ignorecase: true
+tokens:
+  - (?<=(?:ha|')(?:d|s|t|ve) (not )?)got

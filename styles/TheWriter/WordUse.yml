@@ -1,0 +1,13 @@
+---
+extends: existence
+message: Check use of '%s'.
+link: https://www.thewriter.com/tools/style-guide/spelling/words-were-never-quite-sure-how-to-spell
+level: suggestion
+ignorecase: true
+tokens:
+  - 'any ?time'
+  - 'bi(?:annu|enni)al'
+  - 'depend[ae]nt'
+  - 'in ?to'
+  - 'judgments?'
+  - 'station[ae]ry'
