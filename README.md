@@ -1,24 +1,32 @@
-![wip](https://img.shields.io/badge/-WIP-yellow) ![vale](https://img.shields.io/badge/Vale-&ge;v2.5.0-blue) ![license](https://img.shields.io/badge/License-MIT-green)
-
 # The Writer for Vale
 
-An attempt to implement [the Writer style guide](http://www.thewriter.com/what-we-think/style-guide/) as a set of rules for [Vale](https://docs.errata.ai/vale/about).
+![WIP][ii01] ![Vale][ii02] ![License][ii03]
+
+An attempt to implement [the Writer style guide][li01] as a set of rules for [Vale][li02].
+For the style coverage, see [Scope][li03].
 
 > A work in progress.
-> Tested and verified with Vale 2.5.0.
+> Tested and verified with Vale 2.24.0.
 
-Copy **TheWriter** folder to your `StylesPath`, and include it in the Vale config file.
+Copy **TheWriter** and **Vocab** folders to your `StylesPath`, and include them in the Vale configuration file.
 
 ```ini
-# Example Vale config file (`.vale.ini` or `_vale.ini`)
+; Vale configuration file (`.vale.ini`)
 
-# Path to Vale styles relative to this config file
-StylesPath = path/to/styles
+StylesPath = path/to/style
 
-# Minimum alert level to show, and break the CI build
+Vocab = TheWriterNames
+
 MinAlertLevel = suggestion
 
-# Global settings (applied to every syntax)
 [*]
-BasedOnStyles = TheWriter
+BasedOnStyles = Vale, TheWriter
 ```
+
+[li01]: https://www.thewriter.com/tools/style-guide
+[li02]: https://vale.sh/
+[li03]: Scope.md
+
+[ii01]: https://img.shields.io/badge/-WIP-yellow
+[ii02]: https://img.shields.io/badge/Vale-2.24.0-blue
+[ii03]: https://img.shields.io/badge/License-MIT-green
