@@ -1,3 +1,7 @@
+.vscode
+styles/TheWriter_draft
+testdata
 .editorconfig
 .yamllint.yml
-TODO
+.DS_Store
+Thumbs.db
